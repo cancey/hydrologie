@@ -1,0 +1,43 @@
+Office fédéral de météorologie et de climatologie, MétéoSuisse
+Operation Center 1
+Postfach 257
+8058 Zürich-Flughafen
+
+stn yyyyMMddHHmm
+
+stn Abréviation de la station
+y   Année
+M   Mois
+d   Jour
+H   Heure
+m   Minute   
+     
+Heures en UTC:           00:40 UTC = 02:40 heure d'été
+                                   = 01:40 heure d'hiver
+
+Référence du temps pour les valeurs horaires, si rien d'autre ne figure dans la description du paramètre: HH  = (HH-1):01 - HH:00
+Exemple: 13 = se réfère à la période de mesure de 12:01 à 13:00
+
+Les valeurs manquantes sont caractérisées par un '-'.
+
+Informations sur la qualité: la légende relative aux informations sur la qualité se trouve sous: https://gate.meteoswiss.ch/idaweb/text/datenqualitaet_legende_fr.pdf
+
+
+ 
+
+
+
+Stations
+--------
+stn       Nom                                  Parameter        Source de données                                  Longitude/Latitude       Coordonnées [km] Altitude [m]
+BLA       Blatten, Lötschental                 rhh150dx         MeteoSchweiz                                       7°49'/46°25'             629564/141084    1538
+BLA       Blatten, Lötschental                 rre150d0         MeteoSchweiz                                       7°49'/46°25'             629564/141084    1538
+RIE       Ried, Lötschen                       rhh150dx         unknown                                            7°48'/46°25'             628275/140370    1500
+RIE       Ried, Lötschen                       rre150d0         MeteoSchweiz                                       7°48'/46°25'             628275/140370    1500
+
+Paramètre
+---------
+          Unité                                Description
+rhh150dx  mm                                   précipitations; somme horaire maximale du jour (jour civile)
+rre150d0  mm                                   précipitations; somme journalière conventionnelle 6 UTC - 6 UTC du jour suivant
+
